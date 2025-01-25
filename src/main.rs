@@ -1,16 +1,13 @@
 /// A Hello, world! program
 
 fn main() {
-    print_hello()
-    print_goodbye()
+    print("Hello, world!");
+    print("Goodbye, world.");
 }
 
-fn print_hello() {
-    println!("Hello, world!");
-}
-
-fn print_goodbye() {
-    println!("Goodbye, world.");
+// save three chars, one of which needs a shift!
+fn print(m: &str) {
+    println!("{m}")
 }
 
 /// And, we're done! sike, BOO!!!!
