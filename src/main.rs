@@ -6,3 +6,5 @@ fn main() {
     println!("Goodbye, world!");
     println!("BOO!!!");
 }
+
+/// And, we're done! sike, BOO!!!!
